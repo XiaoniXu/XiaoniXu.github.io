@@ -4,16 +4,20 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-# This is Xiaoni's awesome website
+# This is Jeff's awesome website
+
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
-Website for course **P8105** at Columbia University in the City of New York
+This is an **awesome website** about data science and elmo?
 
-[Google](https://www.google.com/) is used to do data science.
+Sometimes I use [google](https://www.google.com/) to do data science when I'm stuck.
 
 
-If you'd like to learn more about this website, visit [this page](about.html)
+
+If you'd like to learn more about this website, visit [this page](about.html).
+
+
+NOW I CAN PUT STUFF ON THE INTERNET
