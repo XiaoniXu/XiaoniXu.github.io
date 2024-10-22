@@ -8,9 +8,9 @@ output:
 
 # Here are some plots
 
-You can make plots in the same way as always
+You can make plots in the same way as always. 
 
-```{r}
+```{r, message = FALSE}
 library(tidyverse)
 
 df = tibble(
@@ -18,8 +18,7 @@ df = tibble(
   y = 1 + 2 * x - .5 * x ^ 2 + rnorm(100)
 )
 
-df %>% 
+df |> 
   ggplot(aes(x = x, y = y)) + 
   geom_point()
 ```
-
