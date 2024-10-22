@@ -7,6 +7,13 @@ output:
     theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# This is Xiaoni's awesome website
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+Website for course **P8105** at Columbia University in the City of New York
+
+[Google](https://www.google.com/) is used to do data science.
+
+
+If you'd like to learn more about this website, visit [this page](about.html)
