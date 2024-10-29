@@ -11,6 +11,8 @@ This is Xiaoni's first website created for course P8105 at Columbia University.
 
 For more information on Xiaoni's academic and professional experience, visit [this page](more_info.html).
 
+Please see [this page](plotly.html) for different types of plots, and see [this page](dashboard.html) for the dashboard containing those plots.
+
 
 I am an avid birder, so please see a photo of a Purple Sandpiper that I took in Chicago:
 

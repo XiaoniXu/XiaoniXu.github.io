@@ -5,3 +5,104 @@ output:
     toc: true
     toc_float: true
 ---
+
+<p style="text-align: center; color: black;">
+    <strong>Xiaoni Xu</strong><br>
+    617 W 168th St, Apt 0615, New York, New York 10032<br>
+    <a href="mailto:xx2485@cumc.columbia.edu" style="color: black;">xx2485@cumc.columbia.edu</a> | (773) 717-4113
+</p>
+
+<hr>
+
+<div style="color: black;">
+  
+## Education
+
+### Columbia University in the City of New York  
+**Master of Science in Biostatistics**  
+*New York, NY* | *Sept. 2024 – present*  
+Relevant Courses: Data Science I, Biostatistical Methods I, Probability, Principles of Epidemiology I  
+
+### University of Chicago  
+**Bachelor of Arts in Biology**  
+*Chicago, IL* | *Sept. 2019 – June 2023*  
+GPA: 3.60/4.00  
+
+- **2023**: Jeff Metcalf Fellowship Grant for Graduating Students ($5000)  
+- **2022**: Ecology and Evolution Undergraduate Research Fellowship ($5000)  
+- **2021**: Ecology and Evolution Undergraduate Research Fellowship ($5000)  
+
+Relevant Courses: Linear Algebra, Mathematical Probability, Statistical Methods and Applications, Calculus III, Fundamentals of Biological Data Analysis, Biological Systems  
+
+<hr>
+
+## Skills
+
+- **Computer Skills**: R, Stratovan Checkpoint, Python  
+- **Wet-Lab Skills**: PCR, 2-D NMR  
+
+<hr>
+
+## Biostatistical Projects
+
+### Efficacy and Safety Test on Sarecycline  
+**Part-time Analyst** | *Chicago, IL* | *Aug. 2023 – Oct. 2023*  
+Mentor: Ashley Pajak, IQVIA  
+- Drafted and completed Statistical Analysis Plan (SAP) of the clinical trial study  
+- Evaluated the efficacy and safety of Sarecycline in treating acne vulgaris using clinical trial data  
+- Performed Cochran-Mantel-Haenszel Chi-Squared Test and ANCOVA in R  
+
+### Efficacy and Safety Test on Adjunctive Pimavanserin  
+**Part-time Analyst** | *Chicago, IL* | *Aug. 2023 – Oct. 2023*  
+Mentor: Loan Kim Robinson, Bristol Myers Squibb  
+- Completed and presented Statistical Analysis Plan (SAP) of the clinical trial study  
+- Deployed R Shiny application to clinical trial data  
+- Evaluated the efficacy of Pimavanserin in subjects with major depressive disorder  
+
+<hr>
+
+## Research Experience
+
+### University of Pennsylvania Jin Lab  
+**Student Researcher** | *Philadelphia, PA* | *May 2024 – present*  
+Supervisor: Dr. Jin Jin, Assistant Professor of Biostatistics  
+- Reviewed and analyzed literature on various LLMs in the medical field, such as Med-Gemini, DrHouse, and MEDIQ  
+- Explored the potential of AI applications in PRS and GWAS  
+
+### University of Chicago Slater Lab  
+**Undergraduate Researcher** | *Chicago, IL* | *Feb. 2020 – May 2024*  
+Supervisor: Dr. Graham Slater, Associate Professor  
+- Conducted morphological analyses on 3D scans of Charadriiformes cranial bones  
+- Developed modularity hypothesis of the avian skull based on phylogenetic tree and bird anatomy  
+- Presented at the annual conference of the American Ornithological Society in 2021  
+
+### Field Museum  
+**Undergraduate Researcher** | *Chicago, IL*  
+Supervisor: Dr. John Bates, Curator, and Dr. Shannon Hackett, Associate Curator of Birds  
+
+**Multi-species Molecular Sexing and Morphological Analysis on Andean Birds** | *Aug. 2022 – Present*  
+- Prepared and analyzed DNA data from bird blood samples  
+- Analyzed avian CHD1 gene using Geneious to conduct molecular sexing  
+- Conducted statistical analysis on morphological data from both fieldwork and Field Museum collections  
+
+**Novel Geometric and Morphometric Application on Describing Avian Eggs** | *June 2022 – Sept. 2022*  
+- Applied geometrical models for describing 2D and 3D shapes of Alcid eggs  
+- Provided feedback on installation, UI, and functionality of a novel computer application  
+
+**Phylogenetic Analysis of Species Complex in Genus Laniarius** | *Feb. 2020 – June 2021*  
+- Conducted statistical analyses on morphological data of Willard’s Sooty Boubous subspecies  
+- Applied R packages `tidyverse`, `vegan`, and `MASS` for multi-variable morphological analysis  
+
+<hr>
+
+## Publications and Presentations
+
+- **Xu, X., Natale, R. (2024)**. *Correlated evolution of beak and braincase morphology in select bird clades.* Journal of Morphology, 285, e21703. [https://doi.org/10.1002/jmor.21703](https://doi.org/10.1002/jmor.21703)
+  
+- **Conference Presentation**: “3D morphometrics of shorebird skulls show a strong signal of semi-independent evolution of beak and braincase.” Annual meeting of the American Ornithological Society. *August 2021.*
+
+</div>
+
+<p style="text-align: center;">
+  <a href="index.html">Go back to Home</a>
+</p>
