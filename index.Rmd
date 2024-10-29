@@ -1,23 +1,22 @@
 ---
-title: "My awesome website"
+title: "Xiaoni's Website"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Xiaoni's awesome website
+This is Xiaoni's first website created for course P8105 at Columbia University. 
 
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-This is an **awesome website** about data science and elmo?
-
-Sometimes I use [google](https://www.google.com/) to do data science when I'm stuck.
+For more information on Xiaoni's academic and professional experience, visit [this page](more_info.html).
 
 
+I am an avid birder, so please see a photo of a Purple Sandpiper that I took in Chicago:
+
+<img src="images/PUSA.jpg" style="width:75%">
+
+For more photos, visit [my photo library on eBird](https://media.ebird.org/catalog?userId=USER953216&mediaType=photo&sort=rating_rank_desc).
 
 If you'd like to learn more about this website, visit [this page](about.html).
 
-
-NOW I CAN PUT STUFF ON THE INTERNET

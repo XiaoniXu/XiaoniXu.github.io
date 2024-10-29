@@ -1,4 +1,4 @@
-name: "Hello internet!"
+name: "Xiaoni's Website"
 output_dir: "."
 navbar:
   title: "Home"
@@ -9,8 +9,10 @@ navbar:
       href: plot.html
     - text: "Plotly"
       href: plotly.html
+    - text: "Dashboard"
+      href: dashboard.html 
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<xx2485@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/XiaoniXu/
 output:
