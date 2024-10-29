@@ -14,6 +14,7 @@ For more information on Xiaoni's academic and professional experience, visit [th
 Please see [this page](plotly.html) for different types of plots, and see [this page](dashboard.html) for the dashboard containing those plots.
 
 
+
 I am an avid birder, so please see a photo of a Purple Sandpiper that I took in Chicago:
 
 <img src="images/PUSA.jpg" style="width:75%">
