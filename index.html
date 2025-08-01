@@ -1,54 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Xiaoni Xu | About</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
   <style>
-    /* --- site-wide basics --- */
-    body { font-family: sans-serif; margin: 0; line-height: 1.6; color: #1b1b1f; }
-    a    { color: #3178c6; text-decoration: none; }
-    .wrap { max-width: 780px; margin: 4rem auto; padding: 0 1rem; }
-
-    /* --- simple navbar --- */
-    .nav { background:#144a74; padding:0.5rem 1rem; display:flex; gap:1rem; }
-    .nav a { color:#fff; font-weight:600; padding:0.4rem 0.6rem; border-radius:4px; }
-    .nav a.active, .nav a:hover { background:#3178c6; }
-
-    /* --- profile pic --- */
-    .hero { text-align:center; }
-    .hero img { width:160px; border-radius:50%; margin-bottom:1rem; }
-
-    /* --- headings --- */
-    h1 { color:#144a74; margin-top:0; }
+    :root {
+      --text: #000;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Inter", sans-serif;
+    }
+    body {
+      color: var(--text);
+      line-height: 1.7;
+    }
+    /* --- NAVBAR --- */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #eee;
+    }
+    nav .brand {
+      font-weight: 700;
+      letter-spacing: 3px;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--text);
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      margin-left: 2rem;
+    }
+    nav a:hover,
+    nav a.active {
+      text-decoration: underline;
+    }
+    /* --- LAYOUT --- */
+    .wrapper {
+      max-width: 1100px;
+      margin: 4rem auto;
+      display: flex;
+      gap: 3rem;
+      padding: 0 2rem;
+    }
+    .profile-pic {
+      width: 340px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .content h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+    .content h2 {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .content p {
+      margin-bottom: 1rem;
+    }
+    @media (max-width: 768px) {
+      .wrapper {
+        flex-direction: column;
+      }
+      .profile-pic {
+        width: 100%;
+      }
+      nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      nav a {
+        margin-left: 0;
+      }
+    }
   </style>
 </head>
 <body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="brand">XIAONI&nbsp;XU</div>
+    <div>
+      <a href="index.html" class="active">About</a>
+      <a href="research.html">Research</a>
+    </div>
+  </nav>
 
-<nav class="nav">
-  <a href="index.html" class="active">About</a>
-  <a href="research.html">Research</a>
-</nav>
+  <!-- MAIN -->
+  <div class="wrapper">
+    <img src="images/XX_photo.jpg" alt="Xiaoni Xu" class="profile-pic" />
 
-<div class="wrap">
-  <div class="hero">
-    <img src="images/XX_photo.jpg" alt="Xiaoni Xu">
-    <h1>Xiaoni Xu</h1>
+    <div class="content">
+      <h1>About Me</h1>
+      <p>
+        I’m a second-year master’s student in biostatistics at Columbia University
+        Mailman School of Public Health. My research focuses on causal mediation
+        analysis, causal inference, and functional data analysis, particularly in
+        health and biomedical applications.
+      </p>
+      <p>
+        Before Columbia, I earned a B.A. in Biology from the University of
+        Chicago with a specification in Ecology and Evolution, where I investigated 3‑D morphometric evolution of avian cranial
+        structures. I have collaborated with the Field Museum on projects integrating epidemiology,
+        molecular biology, and machine learning.
+      </p>
+      <p>
+        Beyond statistics, I’m an avid birder. Sharing
+        data‑driven insights with researchers and the public alike is at the heart
+        of my work.
+      </p>
+
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:xx2485@cumc.columbia.edu">xx2485@cumc.columbia.edu</a></p>
+      <p><a href="CV_Xiaoni_Xu.pdf">Download my CV (PDF)</a></p>
+    </div>
   </div>
-
-  <p>I’m a master’s student in <strong>Biostatistics</strong> at Columbia University Mailman School of Public Health.  
-     My interests include causal mediation analysis, causal inference, and functional data analysis.</p>
-
-  <h2>Education</h2>
-  <ul>
-    <li><strong>M.S. Biostatistics</strong>, Columbia University (expected 2026)</li>
-    <li><strong>B.A. Biology</strong>, University of Chicago (2023)</li>
-  </ul>
-
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:xx2485@cumc.columbia.edu">xx2485@cumc.columbia.edu</a></p>
-
-  <p><a href="CV_Xiaoni_Xu.pdf">Download my CV (PDF)</a></p>
-</div>
-
 </body>
 </html>
