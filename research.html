@@ -1,114 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Xiaoni Xu | Research</title>
-  <link rel="stylesheet" href="styles.css"> <!-- optional if you split CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
   <style>
-    :root {
-      --text: #000;
-    }
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: "Inter", sans-serif;
-    }
-    body {
-      color: var(--text);
-      line-height: 1.7;
-    }
-    /* --- NAVBAR --- */
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2rem;
-      border-bottom: 1px solid #eee;
-    }
-    nav .brand {
-      font-weight: 700;
-      letter-spacing: 3px;
-    }
-    nav a {
-      text-decoration: none;
-      color: var(--text);
-      text-transform: uppercase;
-      font-size: 0.85rem;
-      margin-left: 2rem;
-    }
-    nav a:hover,
-    nav a.active {
-      text-decoration: underline;
-    }
-    /* --- LAYOUT --- */
-    .wrapper {
-      max-width: 1100px;
-      margin: 4rem auto;
-      display: flex;
-      gap: 3rem;
-      padding: 0 2rem;
-    }
-    .profile-pic {
-      width: 340px;
-      object-fit: cover;
-      border-radius: 8px;
-    }
-    .content h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      color: var(--text);
-    }
-    .content h2 {
-      font-size: 1.2rem;
-      margin-top: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    .content p {
-      margin-bottom: 1rem;
-    }
-    @media (max-width: 768px) {
-      .wrapper {
-        flex-direction: column;
-      }
-      .profile-pic {
-        width: 100%;
-      }
-      nav {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-      nav a {
-        margin-left: 0;
-      }
-    }
+    :root { --text:#374047; }
+    * { box-sizing:border-box; margin:0; padding:0; font-family:"Inter", sans-serif; }
+    body { color:var(--text); line-height:1.7; }
+
+    /* NAVBAR */
+    nav { display:flex; justify-content:space-between; align-items:center; padding:1rem 2rem; border-bottom:1px solid #eee; }
+    nav .brand { font-weight:700; letter-spacing:3px; }
+    nav a { text-decoration:none; color:var(--text); text-transform:uppercase; font-size:0.85rem; margin-left:2rem; }
+    nav a:hover, nav a.active { text-decoration:underline; }
+
+    /* CONTENT */
+    .container { max-width:900px; margin:4rem auto; padding:0 1rem; }
+    h1 { font-size:2.2rem; margin-bottom:2rem; font-weight:700; }
+    h2 { font-size:1.6rem; margin-top:3rem; margin-bottom:0.8rem; font-weight:700; }
+    p { margin-bottom:1rem; }
+    ul { list-style-type:disc; margin:1rem 0 1rem 1.5rem; }
+
+    /* FLEX layout for project */
+    .proj-flex { display:flex; gap:1.5rem; align-items:flex-start; margin-top:1.2rem; }
+    .proj-img { max-width:280px; flex-shrink:0; border-radius:6px; }
+    .proj-text { flex:1; }
+
+    @media(max-width:768px){ nav{flex-direction:column; gap:.5rem;} nav a{margin-left:0;} .proj-flex{flex-direction:column;} .proj-img{width:100%; max-width:100%;} }
   </style>
 </head>
 <body>
-
-<nav>
+  <nav>
     <div class="brand">XIAONI&nbsp;XU</div>
     <div>
-      <a href="index.html" class="active">About</a>
-      <a href="research.html">Research</a>
+      <a href="index.html">About</a>
+      <a href="research.html" class="active">Research</a>
     </div>
   </nav>
 
-<div class="wrap">
-  <h1>Research Highlights</h1>
+  <div class="container">
+    <h1>Research</h1>
 
-  <h2>Causal Mediation Analysis of Time-Varying Exposures</h2>
-  <p>At the Valeri Lab I implement path-specific effect estimators and contribute code to the
-     <em>CMAverse</em> R package, focusing on survival outcomes with competing risks.</p>
+    <h2>Causal Mediation Analysis with Longitudinal Mediators &amp; Competing Risks</h2>
+    <div class="proj-flex">
+      <img src="images/causal_mediation.png" alt="Causal mediation DAG" class="proj-img" />
+      <div class="proj-text">
+        <p>
+          My practicum project in the Valeri Lab focuses on extending the <em>CMAverse</em>
+          R package. I am developing a user‑friendly command that automates causal
+          mediation analysis when (i) mediators are measured repeatedly over time and (ii)
+          both mediators and outcomes are subject to competing events such as death.
+        </p>
+        <p>
+          Diseases of aging—e.g.&nbsp;dementia—often face the competing
+          risk of mortality. Ignoring this alters estimates of indirect effects. Our command
+          will provide path‑specific effect estimates that remain causally interpretable under
+          standard identifiability assumptions (exchangeability, positivity, consistency). In this
+	  project, I aim to develop, implement, and validate (via simulation) an R function that 
+	  estimates path‑specific effects with longitudinal mediators and competing risks, publish
+	  a manual and Github tutorial for this function to assist collaborators and researchers, 
+  	  and apply the new function to simulated datasets.
+        </p>
 
-  <h2>Functional Data Analysis of Mitochondrial Shapes</h2>
-  <p>Using <code>MHD</code> and <code>fdasrvf</code> packages, I analyse 3-D mitochondrial morphology in sedentary
-     versus running mice, exploring distance matrices and depth-based summaries.</p>
 
-  <h2>3-D Avian Cranial Modularity</h2>
-  <p>Under Dr Slater, I examined modular evolution of bird beak and braincase morphology,
-     integrating μCT scans and phylogenetic comparative methods.</p>
-</div>
+      </div>
+    </div>
 
+    <!-- FDA mitochondrial section -->
+    <h2>Functional Data Analysis of Mitochondrial Morphology</h2>
+    <div class="proj-flex">
+      <img src="images/geodesics.png" alt="Geodesic shapes" class="proj-img" />
+      <div class="proj-text">
+        <p>
+          Under Prof.&nbsp;Todd Ogden, I apply functional data analysis tools (<code>MHD</code>, <code>fdasrvf</code>)
+          to 3‑D mitochondrial shape trajectories in running vs. sedentary mice. We quantify shape
+          variability along geodesic paths and relate morphological features to metabolic phenotypes.
+          The figure illustrates geodesic deformation between hypothetical shapes <em>(adapted from
+          Zhang&nbsp;et&nbsp;al., "Nonparametric k‑sample test on shape spaces with applications to mitochondrial shape analysis", 2022)</em>.
+        </p>
+      </div>
+    </div>
+
+    <h2>Avian Cranial Evolution</h2>
+    <p>
+      At the University of Chicago I collaborated with Prof.&nbsp;Graham Slater and
+      Dr.&nbsp;John Bates to examine the semi‑independent evolution of bird beaks and
+      braincases using high‑resolution µCT scans and phylogenetic comparative
+      methods.
+    </p>
+  </div>
 </body>
 </html>
