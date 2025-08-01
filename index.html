@@ -6,83 +6,24 @@
   <title>Xiaoni Xu | About</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
   <style>
-    :root {
-      --text: #000;
-    }
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: "Inter", sans-serif;
-    }
-    body {
-      color: var(--text);
-      line-height: 1.7;
-    }
-    /* --- NAVBAR --- */
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2rem;
-      border-bottom: 1px solid #eee;
-    }
-    nav .brand {
-      font-weight: 700;
-      letter-spacing: 3px;
-    }
-    nav a {
-      text-decoration: none;
-      color: var(--text);
-      text-transform: uppercase;
-      font-size: 0.85rem;
-      margin-left: 2rem;
-    }
-    nav a:hover,
-    nav a.active {
-      text-decoration: underline;
-    }
-    /* --- LAYOUT --- */
-    .wrapper {
-      max-width: 1100px;
-      margin: 4rem auto;
-      display: flex;
-      gap: 3rem;
-      padding: 0 2rem;
-    }
-    .profile-pic {
-      width: 340px;
-      object-fit: cover;
-      border-radius: 8px;
-    }
-    .content h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      color: var(--text);
-    }
-    .content h2 {
-      font-size: 1.2rem;
-      margin-top: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    .content p {
-      margin-bottom: 1rem;
-    }
-    @media (max-width: 768px) {
-      .wrapper {
-        flex-direction: column;
-      }
-      .profile-pic {
-        width: 100%;
-      }
-      nav {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-      nav a {
-        margin-left: 0;
-      }
-    }
+    :root { --text: #000; }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: "Inter", sans-serif; }
+    body { color: var(--text); line-height: 1.7; }
+
+    /* NAVBAR */
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; border-bottom: 1px solid #eee; }
+    nav .brand { font-weight: 700; letter-spacing: 3px; }
+    nav a { text-decoration: none; color: var(--text); text-transform: uppercase; font-size: 0.85rem; margin-left: 2rem; }
+    nav a:hover, nav a.active { text-decoration: underline; }
+
+    /* LAYOUT */
+    .wrapper { max-width: 1100px; margin: 4rem auto; display: flex; gap: 3rem; padding: 0 2rem; }
+    .profile-pic { width: 340px; object-fit: cover; border-radius: 8px; }
+    .content h1 { font-size: 2rem; margin-bottom: 1rem; }
+    .content h2 { font-size: 1.2rem; margin-top: 2rem; margin-bottom: 0.5rem; }
+    .content p { margin-bottom: 1rem; }
+
+    @media (max-width: 768px) { .wrapper { flex-direction: column; } .profile-pic { width: 100%; } nav { flex-direction: column; gap: 0.5rem; } nav a { margin-left: 0; } }
   </style>
 </head>
 <body>
@@ -102,21 +43,24 @@
     <div class="content">
       <h1>About Me</h1>
       <p>
-        I’m a second-year master’s student in biostatistics at Columbia University
-        Mailman School of Public Health. My research focuses on causal mediation
-        analysis, causal inference, and functional data analysis, particularly in
-        health and biomedical applications.
+        I’m a second‑year master’s student in biostatistics at Columbia
+        University Mailman School of Public Health, where I work with
+        Professors <strong>Linda Valeri</strong> and <strong>Todd Ogden</strong> on causal
+        mediation analysis, functional data analysis, and other methods that
+        bridge statistics and public‑health applications.
       </p>
       <p>
-        Before Columbia, I earned a B.A. in Biology from the University of
-        Chicago with a specification in Ecology and Evolution, where I investigated 3‑D morphometric evolution of avian cranial
-        structures. I have collaborated with the Field Museum on projects integrating epidemiology,
-        molecular biology, and machine learning.
+        Before Columbia, I earned a B.A. in Biology (Ecology &amp; Evolution) from the
+        University of Chicago. Under the mentorship of Professors <strong>Graham Slater</strong>
+        and <strong>John Bates</strong> at the Field Museum, I investigated 3‑D
+        morphometric evolution of avian cranial structures and contributed to
+        specimen‑based molecular and morphometric projects at the Field Museum.
       </p>
       <p>
-        Beyond statistics, I’m an avid birder. Sharing
-        data‑driven insights with researchers and the public alike is at the heart
-        of my work.
+        My broader research interests span causal inference, functional data analysis, 
+	animal morphometrics, statistical theory, and ecological and environmental systems. 
+	Outside the lab, you’ll find me giving out bird
+        walks to other students and exploring New York City via all kinds of public transit.
       </p>
 
       <h2>Contact</h2>
