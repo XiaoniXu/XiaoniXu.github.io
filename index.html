@@ -2,23 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Xiaoni Xu | Biostatistician</title>
+  <title>Xiaoni Xu | About</title>
   <style>
-    body { font-family:sans-serif; max-width:720px; margin:3rem auto; line-height:1.6; }
-    h1  { color:#144a74; }
-    img { width:180px; border-radius:50%; display:block; margin:0 auto 1rem; }
-    a   { color:#3178c6; }
+    /* --- site-wide basics --- */
+    body { font-family: sans-serif; margin: 0; line-height: 1.6; color: #1b1b1f; }
+    a    { color: #3178c6; text-decoration: none; }
+    .wrap { max-width: 780px; margin: 4rem auto; padding: 0 1rem; }
+
+    /* --- simple navbar --- */
+    .nav { background:#144a74; padding:0.5rem 1rem; display:flex; gap:1rem; }
+    .nav a { color:#fff; font-weight:600; padding:0.4rem 0.6rem; border-radius:4px; }
+    .nav a.active, .nav a:hover { background:#3178c6; }
+
+    /* --- profile pic --- */
+    .hero { text-align:center; }
+    .hero img { width:160px; border-radius:50%; margin-bottom:1rem; }
+
+    /* --- headings --- */
+    h1 { color:#144a74; margin-top:0; }
   </style>
 </head>
 <body>
-  <img src="images/XX_photo.jpg" alt="Xiaoni Xu">
-  <h1>Xiaoni Xu</h1>
-  <p>M.S. Student in Biostatistics, Columbia University Mailman School of Public Health.<br>
-     Interests: causal mediation analysis, causal inference, functional data analysis.</p>
+
+<nav class="nav">
+  <a href="index.html" class="active">About</a>
+  <a href="research.html">Research</a>
+</nav>
+
+<div class="wrap">
+  <div class="hero">
+    <img src="images/XX_photo.jpg" alt="Xiaoni Xu">
+    <h1>Xiaoni Xu</h1>
+  </div>
+
+  <p>I’m a master’s student in <strong>Biostatistics</strong> at Columbia University Mailman School of Public Health.  
+     My interests include causal mediation analysis, causal inference, and functional data analysis.</p>
+
+  <h2>Education</h2>
+  <ul>
+    <li><strong>M.S. Biostatistics</strong>, Columbia University (expected 2026)</li>
+    <li><strong>B.A. Biology</strong>, University of Chicago (2023)</li>
+  </ul>
 
   <h2>Contact</h2>
   <p>Email: <a href="mailto:xx2485@cumc.columbia.edu">xx2485@cumc.columbia.edu</a></p>
 
-  <p><a href="CV_Xiaoni_Xu.pdf">Download my CV&nbsp;(PDF)</a></p>
+  <p><a href="CV_Xiaoni_Xu.pdf">Download my CV (PDF)</a></p>
+</div>
+
 </body>
 </html>
